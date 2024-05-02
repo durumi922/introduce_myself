@@ -9,5 +9,16 @@ add랑 commit은 따로 해야하는거고
 ㅇㅋ?
 add>commit>add>commit .. 하다가
 깃허브에 올릴래! 할때
-git push
+=> git push
+
+
+=> git branch 브랜치명
+브랜치에서 하려면
+=> git swtich 브랜치명
+해서 이동하고 작업해야됨
+
+근데 너 지금 깃허브에
+main만 연동되어있는거라
+서브브랜치도 연동시키려면
+=> git push 주소 브랜치명
 '''
