@@ -83,8 +83,8 @@ ul.nav-btn > li {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
-    background-image: url("./header-img1.png");
+    opacity: 0.2;
+    /*background-image: url("./header-img1.png");*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -94,6 +94,26 @@ ul.nav-btn > li {
     position: relative;
     color: black;
 }
+
+/*비디오*/
+.hd {
+    position: relative;
+    height: 600px;
+    text-align: center;
+    overflow: hidden; /* 비디오가 헤더를 벗어나지 않도록 오버플로우를 숨김 */
+}
+
+#header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 비디오가 헤더의 크기에 맞게 조정되도록 설정 */
+    z-index: -1; /* 비디오를 헤더의 뒤로 보냄 */
+    opacity: 0.9;
+}
+
 
 
 /* section */
